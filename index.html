@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -15,6 +15,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   	<!-- Bootstrap JS -->
   	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+  	
+  	<!-- favicon -->
+  	<link rel="icon" type="image/x-icon" href="./assets/img/icon.ico">
 
 	<title>Eula Paula Esmeralda | Web Developer</title>
 </head>
@@ -29,42 +32,99 @@
 		<a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x"></i></a>
 		<a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
 		<a href="https://github.com/eulapaulae"><i class="fa fa-github-square fa-2x"></i></a>
+	</div>
+	<div class="row">
+		<div class="col-lg-6 offset-lg-6">
+			<div id="top" class="clear" style="float: right; margin: 70px 30px 70px 70px;">
+				<div id="banner"></div>
+				<button class="btn-menu">menu 1</button>
+				<button class="btn-menu">menu 2</button>
+				<button class="btn-menu">menu 3</button>
+				<button class="btn-menu">menu 4</button>
+			</div>
+		</div>
+		
 	</div>	
 </div>
-<div class="container">
+
+
+<div class="container clear">
 	<div class="row">
-		<div class="col-lg-12">
-			<h2>About Me</h2>
-			<p class="about">A professional makeup artist that grew the passion, grit and skills of a web designer and developer.
+		<div class="col-lg-12 clear">
+			<h2 class="about-me">About Me</h2>
+			<div class="grey4-boxes">
+				<h4>Personal Details:</h4>
+				<div class="row">
+				<p class="flag-text" style="float: left; margin-left: 20px;"><strong>Contact Number:</strong>0916-833-3854</p>
+				</div>
+				<div class="row">
+				<p class="flag-text" style="float: left; margin-left: 20px;"><strong>Email:</strong>info@eulaesmeralda.com</p>
+				</div>
+				<div class="row">
+				<p class="flag-text" style="float: left; margin-left: 20px;"><strong>Nationality:</strong>Filipino</p>
+				</div>	
+			</div>
+			<p class="about-me overflow">A professional makeup artist that grew the passion, grit and skills of a web designer and developer.
 			<br>
 			I am multifaceted with different skills and multiple sides, as in a diamond. Can handle various tasks, creative &amp; dependable.
 			<br>
 			Believes that all things can be learned with practice and determination. Persistence trumps talent.</p>
+			<br>
+			<p class="about-me overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
 		</div>
 	</div>
 </div>
 
-<div class="container">
-	<h2 class="text-success">Skills</h2>
-	<h3 class="text-success">HTML</h3>
-	<div class="progress">
-	  <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
-	</div>
-	<h3 class="text-success mr-auto">CSS</h3>
-	<div class="progress">
-	  <div class="progress-bar" style="width:64%" role="progressbar">64%</div>
+<div class="container-skills">
+	<h2 class="skills-header">Skills</h2>
+	<div class="row clear">
+		<div class="col-lg-11">
+		<div class="col-lg-8">
+			<p class="skills-p">HTML</p>
+			<div class="progress">
+				<div class="progress-bar" style="width: 50%; background-color: #DB6D7B; float: right;">50%</div>
+			</div>	
+		</div>
+		<div class="col-lg-8 ">
+			<p class="skills-p">CSS</p>
+			<div class="progress">
+				<div class="progress-bar" style="width: 50%; background-color: #DB6D7B;">50%</div>
+			</div>	
+		</div>
+		<div class="col-lg-8 ">
+			<p class="skills-p">Javascript</p>
+			<div class="progress">
+				<div class="progress-bar" style="width: 50%; background-color: #DB6D7B;">50%</div>
+			</div>	
+		</div>
+		</div>
+		<div class="col-lg-1 right">
+			<div class="grey4-boxes flag-box" style="float: right;">
+				<h4>Languages:</h4>
+				<div class="row">
+				<img src="./assets/img/us.svg" class="flag">
+				<p class="flag-text" style="float: left; margin-left: 20px;">English</p>
+				</div>
+				<div class="row">
+				<img src="./assets/img/ph.svg" class="flag">
+				<p class="flag-text" style="float: left; margin-left: 20px;">Filipino</p>
+				</div>
+				<div class="row">
+				<img src="./assets/img/it.svg" class="flag">
+				<p class="flag-text" style="float: left; margin-left: 20px;">Italian</p>
+				</div>	
+		</div>
+		</div>
 	</div>
 </div>
-<div class="container">
-	<div class="progress">
-	  <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
-	</div>
-	<div class="progress">
-	  <div class="progress-bar" style="width:64%" role="progressbar">64%</div>
-	</div>
-</div>
-
 <!-- porfolio -->
+<div class="container">
 <h2>PORTFOLIO</h2>
 <div class="container fluid">
 			<div class="row">
@@ -99,9 +159,8 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
-
+</div>
 
 </body>
 </html>
