@@ -1,0 +1,522 @@
+/*Colors
+Linen : #FBE8E6;
+Tea Rose: F7CAC9
+Tuscany: C8A3A0;
+Puce: D0879D;
+Tango Pink: DB6D7B;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Landing Page*/
+.jumbotron {
+	text-align: center;
+	padding-bottom: 30vh;
+	background-image: url('../img/bride2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+                                                                                                                                 
+.container-jumbotron {
+	background-color: rgba(219, 109, 123, 0.37);
+	width: 100%; 
+	margin: 0 auto;
+}
+
+.container {
+	background-color: white; 
+	width: 100%; 
+	align-content: center;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+#heading-img {
+	margin-top: 60px;
+	width: 100%;
+	height: 500px;
+	filter: brightness(120%);
+}
+
+.text {
+	margin: 150px;
+	padding: 30px;
+}
+
+.container-brand {
+		margin: 0 auto;
+		left: 20%;
+	}
+
+.btn {
+	padding: 14px 24px;
+	border: 0 none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.btn:focus, .btn-active:focus, .btn-active:focus {
+	outline: 0 none;
+}
+
+.btn-primary {
+	background: #DB6D7B;
+	color: #000;
+}
+
+.btn-primary:hover {
+	background: #C8A3A0;
+} 
+.btn-primary:link, 
+.btn-primary:visited, 
+.btn-primary:focus, 
+.btn-primary.active, 
+.open > .dropdown-toggle.btn-primary {
+	background: #D0879D;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.link,
+ {
+	background: #D0879D;
+	box-shadow: none;
+}
+
+.btn-primary.outline {
+	border: 2px solid #FBE8E6;
+	color: #FBE8E6;
+}
+
+.btn-primary.outline:hover,
+.btn-primary.outline:focus,
+.btn-primary.active
+.btn-primary.link,
+.btn-primary.visited {
+	border-color: #DB6D7B;
+	color: #DB6D7B;
+	box-shadow: none;
+}
+a:link,
+a:visited,
+a:active {
+	color: black;
+}
+
+a:hover {
+	color: #D0879D;
+}
+
+
+/*Navbar*/
+.header-expand {
+	background-color: #000;
+	height: 8vh;
+	margin-bottom: 30px;
+	padding-top: 15px;
+}
+
+.header-expand-text {
+	color: #ffffff;
+	text-align: center;
+}
+
+.header-expand-text > a {
+	color: red;
+}
+
+
+.header-expand2 {
+	background-color: #DB6D7B;
+	height: 10vh;
+}
+
+.navbar {
+	background-color: #D0879D;
+	height: 60px;
+	padding: 10px 20px;
+	margin: 40px auto 0 auto;
+}
+
+#navbarCollapse {
+	background-color: #D0879D;
+	width: 100%;
+}
+
+.black-container {
+	background: black;
+	margin: 10px auto;
+	padding: 10px;
+	width: 700px;
+}
+
+.brands {
+	margin-top: 30px;
+}
+
+.grey-boxes1 {
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	margin: 15px;
+	float: left;
+}
+
+/*Carousel*/
+.carousel-inner {
+	background-color: rgba(219, 109, 123, 0.37);
+	width: 100%;
+	margin: 0 auto;
+}
+
+.carousel-caption {
+	background-color: rgba(219, 109, 123, 0.37);
+}
+
+	
+.grey-boxes1-img {
+	width: 100px;
+	height: 100px;
+}
+
+/*Portfolio*/
+.cover {
+	background-color: #FBE8E6;
+	width: 100%;
+	margin: 30px auto;
+	padding: 30px;
+
+}
+
+.card {
+	margin-top: 40px;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.card-img-top {
+	height: 300px;
+}
+
+.card-title {
+	font-size: 30px
+}
+
+.img-gallery {
+	width: 300px;
+	height: 400px;
+}
+
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+.pagination {
+	margin: 40px 20px 0 20px;
+}
+
+
+.page-link:hover {
+	background: #DB6D7B;
+	color: 000;
+}
+
+
+.page-link:link,
+.page-link:visited,
+.page-link:active {
+	color: grey;
+} 
+
+/*Services*/
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.lightbox-img {
+	width: 250px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+/*Footer*/
+footer {	
+	background-color: #FBE8E6;
+	padding: 0 60px 30px 60px;
+	margin-top: 50px;
+}
+
+
+#icon {
+	margin: 10px;
+}
+
+.footer-end {
+	width: 100%;
+	background-color: #D0879D;
+	padding: 15px 0 8px 0;
+}
+
+.footer-end p {
+	text-align: center;
+	color: white;
+}
+
+.footer-pad {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.footer-end-text {
+	background-color:grey;
+	margin-bottom: -7px;
+}
+
+/*Contact Form*/
+.bg-photo-contact {
+	text-align: center;
+	padding-bottom: 30vh;
+	background-image: url('../img/bride2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+
+.img-text {
+	background-color: rgba(238, 169, 184, 0.7); 
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); width: 100%; 
+    text-align: center;
+}
+
+/*About*/
+.container-about {
+	margin-top: 120px;
+}
+
+.about-pic {
+	width: 500px;
+	height: 700px;
+	border: 2px solid black;
+}
+
+.col-pad {
+	padding-top: 30px;
+}
+
+/*Media Query*/
+
+@media only screen and (max-width: 400px) {
+	.jumbotron {
+		padding-left: 150px;
+	}
+
+	.header-expand {
+		height: 10vh;
+		padding-top: 7px; 
+	}
+
+	.navbar {
+		margin-top: 60px;
+	}
+
+	.brand-container {
+		padding: 0 30px 0 30px;
+		align: center;	
+	}
+
+	.heading-img {
+		height: 10vh;	
+	}
+
+	.carousel-img {
+		height: 400px;
+	}
+
+	/*About*/
+	.about-pic {
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+	}
+
+	/*Services*/
+	.get-started {
+		margin-top: -30px;
+	}
+
+	/*Contact*/
+	.img-text {
+		top: 55%;
+	}
+
+	/*Footer*/
+	footer {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.location {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 451px) and (max-width: 768px) {
+
+	.header-expand {
+		height: 10vh;
+		font-size: 18px; 
+	}
+
+	.navbar {
+		margin-top: 60px;
+	}
+
+	.brands {
+		margin: 0 auto;
+	}
+
+	.heading-img {
+		width:  
+	}
+
+	.carousel-img {
+		height: 500px;
+	}
+
+	.img-gallery {
+	width: 260px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0; 
+	}
+
+	/*Services*/
+	.gallery-container {
+		width: 0 auto;
+	}
+
+	.lightbox-img {
+		width: 200px;
+		height: 250px;
+		margin: 0 auto;
+	}
+
+	/*About*/
+	.about-pic {
+	width: 500px;
+	height: 700px;
+	margin: 0 auto;
+	}
+
+	/*Contact*/
+	
+
+	/*Footer*/
+	footer {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.location {
+		margin-top: 30px;
+	}
+}
+
+
+
